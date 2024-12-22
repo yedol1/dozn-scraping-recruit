@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:testing-library/react",
+    "plugin:jest-dom/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "root": true,
+
+  "rules": {
+    // 전역으로 any 사용을 허용
+    "@typescript-eslint/no-explicit-any": "off"
+    // "@typescript-eslint/no-explicit-any": "warn"
+  }
+}
